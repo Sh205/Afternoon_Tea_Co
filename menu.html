@@ -6,9 +6,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/assets/jquery.js"></script>
 </head>
 <body>
 
+  <div class=container>
+  <div id="wrap">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -18,37 +21,39 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">The Tea People </a>
+          <a class="navbar-brand" href="#">The Tea People</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href='index.html'>Home</a></li>
-            <li><a href='wellness.html'>Wellness</a></li>
+            <li><a href='wellness.html'>The Tea Blog</a></li>
             <li><a href='menu.html'>Menu</a></li>
             <li><a href='contact.html'>Shop Now</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <br> 
-    <br>
-    <br>
+  <br> 
+  <br>
+  <br>
 
 	<h1> Set Menu </h1>
 
-  <h2>Afternoon Tea for 2 - 15 per person </h2>
-    <p>2 Mini Victoria Sponge Cakes </p>
-    <p>2 Raspberry and White Chocolate Scones </p>
-    <p>Clotted Cream and Strawberry Jam </p>
-    <p>Chocolate dipped Strawberries </p>
-    <p>Choice of Artisan Loaf Sandwiches </p>
-    <p>Choice of Loose-Leaf Teas </p>
-    <p>Add Bottle of Prosecco - 7 each </p>
-    <p>Add Bottle of Champagne - 17 each </p>
+  <div class="first">
+    <h2>Afternoon Tea for 2 - 15 per person </h2>
+      <p>2 Mini Victoria Sponge Cakes </p>
+      <p>2 Raspberry and White Chocolate Scones </p>
+      <p>Clotted Cream and Strawberry Jam </p>
+      <p>Chocolate dipped Strawberries </p>
+      <p>Choice of Artisan Loaf Sandwiches </p>
+      <p>Choice of Loose-Leaf Teas </p>
+      <p>Add Bottle of Prosecco - 7 each </p>
+      <p>Add Bottle of Champagne - 17 each </p>
+  </div>
 
 
 
-
+<div class="second">
 	<h2>The Celebration Package - 20 per person </h2>
 		<p> Celebration Cake of Choice </p>
 		<p> Raspberry and White Chocolate Scones </p>
@@ -58,24 +63,31 @@
 		<p> Glass of Prosecco </p>
     <br>
     <p>Minimum of 4 Guests </p>
+</div>
 
-
+<div class="third">
 	<h2> The Luxury Package -35 per person </h2>
-
-		
 		<p>Celebration Cake of Choice </p>
 		<p>Mini Victoria Sponge Cakes</p>
     <p>Macaroons</p>
-		<P>Raspberry and White Chocolate Scones<p>
+		<P>Raspberry and White Chocolate Scones</p>
 		<p>Clotted Cream and Strawberry Jam </p>
-		<p>Choice of our Finest Loose-Leaf Teas
+		<p>Choice of our Finest Loose-Leaf Teas </p>
 		<p>Glass of Champagne </p>
     <p>Waiter Service </p>
-
 		<br>
-
 		<p>Minimum of 4 Guests </p>
+</div>
+</div>
 
+ <footer>
+      <p>Created by Sarah Hepworth. © All rights reserved.</p>
+ </footer>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
 
 </body>
 </html>

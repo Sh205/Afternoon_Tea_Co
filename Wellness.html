@@ -5,10 +5,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> The Tea People </title>
+	<title> The Tea People</title>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+	<div id="wrap">
+  	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -17,12 +19,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">The Tea People </a>
+          <a class="navbar-brand" href="#">The Tea People</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href='index.html'>Home</a></li>
-            <li><a href='wellness.html'>Wellness</a></li>
+            <li><a href='wellness.html'>The Tea Blog</a></li>
             <li><a href='menu.html'>Menu</a></li>
             <li><a href='contact.html'>Shop Now</a></li>
           </ul>
@@ -32,14 +34,77 @@
 
 <br>
 <br>
-<br>
-	<h1>The Magical World of Tea </h1>
-	<h2>Feel Good. Tastes Great. </h2>
+
+	<h1>The Tea Blog</h1>
+	<h2>Discover the Amazing World of Tea </h2>
+
 	
-	<a href="https://ibb.co/f9iKva"><img src="https://preview.ibb.co/dTQoov/Tea_plants.jpg" alt="Tea_plants" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+
+	<div class="row">
+        <div class="col-sm-12">
+          <h2 class="featurette-heading">Our blog: <span class="text-muted">recent posts.</span></h2>
+        </div>
+     </div>
+     <div class="row">
+	<div class="col-sm-4">
+    <div class="hovereffect">
+        <img class="img-responsive" src="http://servingjoy.com/wp-content/uploads/2014/12/Blooming-tea-in-glass-pot-and-teacup.jpg" alt="blog post">
+            <div class="overlay">
+                <h2>Spotlight: Flowering Teas, Worth it? </h2>
+				<p> 
+					<a href="#">READ</a>
+				</p> 
+            </div>
+    </div>
+	</div>
+	<div class="col-sm-4">
+    <div class="hovereffect">
+        <img class="img-responsive" src="https://preview.ibb.co/h5duVa/rohini_emerald.jpg" alt="blog post">
+            <div class="overlay">
+                <h2>News: Rohini Jethi Kupi 2017 First Flush Darjeeling!</h2>
+				<p> 
+					<a href="#blog-post">READ</a>
+				</p> 
+            </div>
+    </div>
+	</div>  
+	<div class="col-sm-4">
+    <div class="hovereffect">
+        <img class="img-responsive" src="http://www.reshareit.com/wp-content/uploads/Benefits-of-Drinking-Black-Tea.jpg" alt="blog post">
+            <div class="overlay">
+                <h2>Tips: Black, Green, White? How to Best Steep Your Tea!</h2>
+				<p> 
+					<a href="#">READ</a>
+				</p> 
+            </div>
+    </div>
+	</div>  	
+		  
+	  </div>
+
+	<div class="col-sm-15">
+	<h2>Want to learn more? <a href"#">Click here</a> to view our Blog Archive! </h2>
+	</div>
 
 
-	<p>Camellia Sinensis is the species of plant  </p>
+
+ 	<footer>
+      <p>Created by Sarah Hepworth. © All rights reserved.</p>
+ 	</footer>
+</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+	$(window).scroll(function() {
+	if ( $(window).scrollTop() >200) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+	</script>
+
 
 </body>
 </html>

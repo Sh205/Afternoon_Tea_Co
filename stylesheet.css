@@ -1,15 +1,29 @@
+body{max-width: 1000px;
+	
+}
+
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+#title {
+	text-align: left;
+	margin-left: 200px
+}
+
 h1{
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 h2{
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 p{
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 #social-buttons button {
@@ -35,4 +49,13 @@ color: white;
 .btn-pinterest {
 	background-color: #b62f26;
 	border-color: #b62f26;
+}
+.first{
+  background-image: url("https://www.teabox.com/blog/wp-content/uploads/2016/06/shutterstock_217391743.jpg");
+}
+.second{
+ background-image: url("http://www.herbco.com/images/product/large/p-1075-jasmine-tea-organic.jpg");
+}
+.third{
+background-image: url("https://www.organicfacts.net/wp-content/uploads/2013/06/Whitetea.jpg");
 }
