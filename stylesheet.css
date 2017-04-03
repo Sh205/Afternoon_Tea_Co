@@ -11,6 +11,7 @@ body{max-width: 1000px;
 #title {
 	text-align: left;
 	margin-left: 200px
+
 }
 #mainlogo {
 	font-family: 'Raleway', sans-serif;
@@ -19,9 +20,7 @@ body{max-width: 1000px;
 
 .alacarte {
 	font-family: 'Raleway', sans-serif;
-	font-style: italic;
 }
-
 
 h1{
 	font-family: 'Raleway', sans-serif;
@@ -40,6 +39,16 @@ p{
 #social-buttons button {
 color: white;
 }
+
+.your-centered-div {
+    width: 560px; 
+    height: 315px; 
+
+   
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto; 
+   }
 .center-block {
   display: block;
   margin-left: auto;
