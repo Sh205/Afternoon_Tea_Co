@@ -115,11 +115,11 @@ background-image: url("https://www.organicfacts.net/wp-content/uploads/2013/06/W
 	z-index:999;
 	right:20px;
 	bottom:20px;
-	background:#27AE61 url(/d8cb61e7a7a61e938a86a9b12aff30bc20951f5a/up.png) no-repeat center 43%;
+	background:#b0c157 url(/d8cb61e7a7a61e938a86a9b12aff30bc20951f5a/up.png) no-repeat center 43%;
 	-webkit-border-radius:30px;
 	-moz-border-radius:30px;
 	border-radius:30px}
-a:hover.back-to-top{background-color:#000}
+a:hover.back-to-top{background-color:#dbddd0}
 img.displayed{
 	display:block;
 	margin:0 auto
