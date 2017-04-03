@@ -40,7 +40,11 @@ p{
 color: white;
 }
 
-
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
    
 .your-centered-div {
     width: 560px; 
